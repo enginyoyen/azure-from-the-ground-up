@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "aksClusterName": {
+      "value": "myAksCluster"
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQ"
+    },
+    "azureActiveDirectoryGroupObjectIDs":{
+      "value": "d6b63ff5-1ba2-2cce-1bde-5321aa54ad118"
+    },
+    "linuxAdminUsername":{
+      "value": "linuxAdminUsername"
+    }
+  }
+}
